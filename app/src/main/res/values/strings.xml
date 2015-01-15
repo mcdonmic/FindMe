@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">FindMe</string>
+    <string name="ManageProfilesTitle">FindMe: Be Found!</string>
+    <string name="ManageProfilesHeader">You may&#8230;</string>
+    <string name="ManageProfilesFooter">&#8230; a profile</string>
+    <string name="ManageProfilesSeparator">or</string>
+    <string name="MakeProfileButtonLabel">M A K E</string>
+    <string name="TargetProfileButtonLabel">TARGET</string>
+    <string name="ShareProfileButtonLabel">SHARE</string>
+</resources>
