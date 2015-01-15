@@ -5,94 +5,113 @@
 
 
 
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
 xmlns:tools="http://schemas.android.com/tools"
+android:orientation="vertical"
 android:layout_width="match_parent"
 android:layout_height="match_parent"
+android:layout_marginTop="1sp"
 android:paddingLeft="@dimen/activity_horizontal_margin"
 android:paddingRight="@dimen/activity_horizontal_margin"
 android:paddingTop="@dimen/activity_vertical_margin"
 android:paddingBottom="@dimen/activity_vertical_margin"
 tools:context=".ActionSelectionActivity"
-    android:focusableInTouchMode="true">
+android:focusableInTouchMode="true">
 
+    <!-- Title -->
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:gravity="center_horizontal"
+        android:singleLine="true"
+
+        android:layout_height="@dimen/ProfileSelectorPageTitleHeight"
+        android:textSize="@dimen/ProfileSelectorPageTitleTextSize"
         android:text="@string/ManageProfilesTitle"
         android:id="@+id/selProfTitleTextView"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginTop="30sp"
-        android:layout_centerHorizontal="true"
-        android:lines="15"
-        android:textSize="35sp"
-        android:singleLine="false" />
+        />
 
+    <!-- Header -->
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/ProfileSelectionLayoutPadding"
+        android:singleLine="true"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="@string/ManageProfilesHeader"
-        android:id="@+id/selProfHeaderTextView"
-        android:layout_gravity="center_horizontal"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="100sp" />
+        android:gravity="center_horizontal"
 
+        android:text="@string/ManageProfilesHeader"
+        android:id="@+id/selProfHeaderTextView" />
+
+    <!-- M A K E  Button -->
+    <Button
+        android:layout_width="@dimen/ProfileSelectorButtonWidth"
+        android:layout_height="@dimen/ProfileSelectorButtonHeight"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+
+        android:text="@string/MakeProfileButtonLabel"
+        android:id="@+id/btnMakeProfile"   />
+
+    <!-- Separator -->
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/ProfileSelectorSeparatorHeight"
+        android:singleLine="true"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:text="@string/ManageProfilesSeparator"
         android:id="@+id/selProfSeparator1TextView"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginTop="200sp"
-        android:layout_centerHorizontal="true" />
+        />
 
+    <!-- Target Button -->
+    <Button
+        android:layout_width="@dimen/ProfileSelectorButtonWidth"
+        android:layout_height="@dimen/ProfileSelectorButtonHeight"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+
+        android:text="@string/TargetProfileButtonLabel"
+        android:id="@+id/btnTargetProfile" />
+
+    <!-- Separator -->
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/ProfileSelectorSeparatorHeight"
+        android:singleLine="true"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:text="@string/ManageProfilesSeparator"
         android:id="@+id/selProfSeparator2TextView"
-        android:layout_gravity="center_horizontal"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="300sp" />
+        />
 
+    <!-- Share Button -->
+    <Button
+        android:layout_width="@dimen/ProfileSelectorButtonWidth"
+        android:layout_height="@dimen/ProfileSelectorButtonHeight"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+
+        android:text="@string/ShareProfileButtonLabel"
+        android:id="@+id/btnShareProfile" />
+
+    <!-- Footer -->
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:paddingTop="@dimen/ProfileSelectionLayoutPadding"
+        android:singleLine="true"
         android:textAppearance="?android:attr/textAppearanceLarge"
+        android:gravity="center_horizontal"
+
         android:text="@string/ManageProfilesFooter"
         android:id="@+id/selProfFooterTextView"
-        android:layout_gravity="center_horizontal"
-        android:layout_centerHorizontal="true"
-        android:layout_alignParentEnd="false"
-        android:layout_marginTop="400sp" />
+        />
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/MakeProfileButtonLabel"
-        android:id="@+id/btnMakeProfile"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="135sp" />
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/TargetProfileButtonLabel"
-        android:id="@+id/btnTargetProfile"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="235sp" />
-
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/ShareProfileButtonLabel"
-        android:id="@+id/btnShareProfile"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="335sp" />
-
-</RelativeLayout>
+</LinearLayout>
 
 
