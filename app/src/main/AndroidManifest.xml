@@ -8,8 +8,16 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name=".ActionSelectionActivity"
-            android:label="@string/app_name" >
+            android:name=".SelectProfile"
+            android:label="@string/actTitle_ProfileSelection" >
+        </activity>
+        <activity
+            android:name=".AddMedia"
+            android:label="@string/actTitle_AddVisualMedia" >
+        </activity>
+        <activity
+            android:name=".SplashScreen"
+            android:label="@string/title_activity_splash_screen" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

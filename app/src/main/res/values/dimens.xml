@@ -6,20 +6,18 @@
     <!-- Screen Layout Constants Usually Overriden-->
     <dimen name="assumed_screen_width">150in</dimen>
     <dimen name="assumed_screen_height">400in</dimen>
-    <dimen name="default_screen_scalar_versus_assumed">1</dimen>
 
     <!-- Custom dimensions -->
-    <dimen name="dimProfileHandlerTitlePosition">400dp</dimen>
-    <dimen name="dimProfileHandlerHeaderPosition">100dp</dimen>
-    <dimen name="dimProfileActionSeparator1Position">200dp</dimen>
-    <dimen name="dimProfileActionSeparator2Position">300dp</dimen>
-    <dimen name="dimProfileHandlerFooterPosition">400dp</dimen>
-    <dimen name="titlePositionProfileManger">30dp</dimen>
-    <dimen name="ProfileMangerLineSpacing">30sp</dimen>
-    <dimen name="ProfileSelectorPageTitleHeight">100sp</dimen>
-    <dimen name="ProfileSelectorPageTitleTextSize">35sp</dimen>
-    <dimen name="ProfileSelectionLayoutPadding">25sp</dimen>
-    <dimen name="ProfileSelectorButtonHeight">50sp</dimen>
-    <dimen name="ProfileSelectorButtonWidth">200sp</dimen>
-    <dimen name="ProfileSelectorSeparatorHeight">20sp</dimen>
+
+
+    <dimen name="TitleTextViewHeight">100sp</dimen>
+    <dimen name="OversizeTextSize">35sp</dimen>
+    <dimen name="HeaderTextViewHeight">50sp</dimen>
+    <dimen name="PaddingAroundGroupOfViews">25sp</dimen>
+    <dimen name="LinearLayoutButtonHeight">50sp</dimen>
+    <dimen name="LinearLayoutButtonWidth">200sp</dimen>
+    <dimen name="SeparatorTextViewHeight">30sp</dimen>
+
+
+
 </resources>

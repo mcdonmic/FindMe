@@ -1,0 +1,89 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="1sp"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".AddMediaActivity"
+    android:focusableInTouchMode="true">
+
+    <!-- Title -->
+    <TextView
+        android:layout_width="match_parent"
+        android:gravity="center_horizontal"
+        android:singleLine="true"
+
+        android:layout_height="@dimen/TitleTextViewHeight"
+        android:textSize="@dimen/OversizeTextSize"
+        android:text="@string/actTitle_AddVisualMedia"
+        android:id="@+id/txtViewAddMediaTitle"
+        />
+
+    <!-- Header
+                To center along top of textView, set width to warp_contents,
+                layout_gravity to center_horizontal, and gravity to top. (top is default)-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="@dimen/HeaderTextViewHeight"
+        android:singleLine="true"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:gravity="center_horizontal"
+
+        android:text="@string/AddMediaHeader"
+        android:id="@+id/txtViewAddMediaOpt1" />
+
+    <!-- Add NEW Media Button -->
+    <Button
+        android:layout_width="@dimen/LinearLayoutButtonWidth"
+        android:layout_height="@dimen/LinearLayoutButtonHeight"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+
+        android:text="@string/NewMediaButtonLabel"
+        android:id="@+id/btnMakeNewMedia"   />
+
+    <!-- Separator -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/TitleTextViewHeight"
+        android:singleLine="true"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/AddMediaSeparator"
+        android:id="@+id/txtViewAddMediaSeparator"
+        />
+
+    <!-- Add Old Media Button -->
+    <Button
+        android:layout_width="@dimen/LinearLayoutButtonWidth"
+        android:layout_height="@dimen/LinearLayoutButtonHeight"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+
+        android:text="@string/OldMediaButtonLabel"
+        android:id="@+id/btnBringOldMedia"   />
+
+    <!-- Footer
+            To center along bottom of textView, set width to warp_contents,
+            layout_gravity to center_horizontal, and gravity to bottom-->
+     <TextView
+        android:layout_width="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="bottom"
+        android:layout_height="@dimen/HeaderTextViewHeight"
+        android:singleLine="true"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+
+        android:text="@string/AddMediaFooter"
+        android:id="@+id/addMediaFooterTextView"
+        />
+
+</LinearLayout>

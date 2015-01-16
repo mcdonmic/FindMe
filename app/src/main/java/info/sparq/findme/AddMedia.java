@@ -4,24 +4,21 @@ import android.app.Activity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import info.sparq.findme.R;
 
-
-public class ActionSelectionActivity extends Activity {
+public class AddMedia extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_action_selection);
-
-
-
+        setContentView(R.layout.activity_add_media);
     }
 
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.action_selection, menu);
+        getMenuInflater().inflate(R.menu.add_media, menu);
         return true;
     }
 

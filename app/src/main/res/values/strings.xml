@@ -2,11 +2,31 @@
 <resources>
 
     <string name="app_name">FindMe</string>
-    <string name="ManageProfilesTitle">FindMe: Be Found!</string>
-    <string name="ManageProfilesHeader">You may&#8230;</string>
-    <string name="ManageProfilesFooter">&#8230; a profile</string>
-    <string name="ManageProfilesSeparator">or</string>
-    <string name="MakeProfileButtonLabel">M A K E</string>
-    <string name="TargetProfileButtonLabel">TARGET</string>
-    <string name="ShareProfileButtonLabel">SHARE</string>
+    <string name="SplashTitle">FindMe: Be Found!</string>
+
+    <!-- Profile Selector Variables -->
+    <string name="actTitle_ProfileSelection">Select a Profile</string>
+    <string name="ManageProfilesHeader">You may…</string>
+    <string name="ManageProfilesFooter">… a profile</string>
+    <string name="MakeProfileButtonLabel">m a k e</string>
+    <string name="TargetProfileButtonLabel">c h a s e</string>
+    <string name="ShareProfileButtonLabel">s h a r e</string>
+    <string name="GeneralSeparator">or</string>
+
+    <!-- Add Visual Media Variables -->
+    <string name="actTitle_AddVisualMedia">Let's Get Visual!</string>
+    <string name="AddMediaHeader">Make a…"</string>
+    <string name="AddMediaSeparator">… or share an…</string>
+    <string name="NewMediaButtonLabel">n e w</string>
+    <string name="OldMediaButtonLabel">o l d</string>
+    <string name="AddMediaFooter">… media file</string>
+    <!-- Future intents -->
+    <string name="ShareMediaButtonLabel">SHARE</string>
+
+    <!-- Generated variables -->
+    <string name="title_activity_nothing">Delete Me</string>
+    <string name="title_activity_splash_screen">SplashScreen</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
 </resources>
