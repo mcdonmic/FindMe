@@ -4,6 +4,10 @@ import android.app.Activity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.Button;
+import android.widget.TextView;
+
 import info.sparq.findme.R;
 
 public class SplashScreen extends Activity {
@@ -12,8 +16,21 @@ public class SplashScreen extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash_screen);
-    }
 
+        // Declare View Variables and assign ID's
+        Button btnContinue = (Button) findViewById(R.id.btnSplashContinue);
+        View.OnClickListener onlyListener = new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                // This is the only "action" that happens from the splash screen
+                /*
+                Pick up here when you are done with laundry
+                 */
+            }
+        };
+        btnContinue.setOnClickListener(onlyListener);
+
+    }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {

@@ -2,7 +2,10 @@
 <resources>
 
     <string name="app_name">FindMe</string>
-    <string name="SplashTitle">FindMe: Be Found!</string>
+    <string name="title_activity_splash_screen">Welcome to FindMe</string>
+
+    <!-- Future intents -->
+    <string name="ShareMediaButtonLabel">SHARE</string>
 
     <!-- Profile Selector Variables -->
     <string name="actTitle_ProfileSelection">Select a Profile</string>
@@ -14,19 +17,21 @@
     <string name="GeneralSeparator">or</string>
 
     <!-- Add Visual Media Variables -->
-    <string name="actTitle_AddVisualMedia">Let's Get Visual!</string>
-    <string name="AddMediaHeader">Make a…"</string>
+    <string name="actTitle_AddVisualMedia">Let\'s Get Visual!</string>
+    <string name="AddMediaHeader">Make a…</string>
     <string name="AddMediaSeparator">… or share an…</string>
     <string name="NewMediaButtonLabel">n e w</string>
     <string name="OldMediaButtonLabel">o l d</string>
     <string name="AddMediaFooter">… media file</string>
-    <!-- Future intents -->
-    <string name="ShareMediaButtonLabel">SHARE</string>
 
-    <!-- Generated variables -->
-    <string name="title_activity_nothing">Delete Me</string>
-    <string name="title_activity_splash_screen">SplashScreen</string>
-    <string name="hello_world">Hello world!</string>
+    <!-- Splash Screen Variables -->
+    <!-- <string name="SplashTitle">FindMe: Be Found!</string>  -->
+    <string name="continuationButtonLabel">continue</string>
+    <string name="subTitleSplashScreen">Be Found!</string>
+    <string name="titleOnSplashScreen">FindMe:</string>
+
+    <!-- Refactored variables -->
     <string name="action_settings">Settings</string>
+
 
 </resources>

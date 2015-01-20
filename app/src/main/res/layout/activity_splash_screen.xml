@@ -10,17 +10,17 @@
     tools:context="info.sparq.findme.SplashScreen">
 
     <TextView
-        android:text="FindMe:"
+        android:text="@string/titleOnSplashScreen"
         android:layout_width="match_parent"
-        android:layout_height=""
+        android:layout_height="wrap_content"
         android:layout_weight="2"
         android:gravity="center"
         android:textSize="80sp"/>
 
     <TextView
-        android:text="Be Found!"
+        android:text="@string/subTitleSplashScreen"
         android:layout_width="match_parent"
-        android:layout_height=""
+        android:layout_height="wrap_content"
         android:layout_weight="4"
         android:gravity="center"
         android:lines="2"
@@ -29,12 +29,13 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:text="continue"
-        android:textSize="30sp"/>
+        android:text="@string/continuationButtonLabel"
+        android:textSize="30sp"
+        android:id="@+id/btnSplashContinue"/>
      <TextView
         android:text=""
         android:layout_width="match_parent"
-        android:layout_height=""
+        android:layout_height="wrap_content"
         android:layout_weight="1"
 />
 
