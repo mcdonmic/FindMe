@@ -9,21 +9,19 @@
         android:theme="@style/AppTheme" >
         <activity
             android:name=".SelectProfile"
-            android:label="@string/actTitle_ProfileSelection" >
+            android:label="@string/captionProfileSelection" >
         </activity>
         <activity
             android:name=".AddMedia"
-            android:label="@string/actTitle_AddVisualMedia" >
+            android:label="@string/caption_AddVisualMedia" >
         </activity>
         <activity
             android:name=".SplashScreen"
-            android:label="@string/title_activity_splash_screen" >
+            android:label="@string/captionSplashScreen" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
     </application>
-
 </manifest>

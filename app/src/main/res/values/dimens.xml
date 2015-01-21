@@ -1,4 +1,6 @@
 <resources>
+
+
     <!-- Default screen margins, per the Android Design guidelines. -->
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
@@ -7,17 +9,24 @@
     <dimen name="assumed_screen_width">150in</dimen>
     <dimen name="assumed_screen_height">400in</dimen>
 
-    <!-- Custom dimensions -->
 
-
-    <dimen name="TitleTextViewHeight">100sp</dimen>
-    <dimen name="OversizeTextSize">35sp</dimen>
-    <dimen name="HeaderTextViewHeight">50sp</dimen>
+    <!-- Splash Screen Constants -->
+    <dimen name="textViewHeightSplashTitle">100sp</dimen>
+    <dimen name="textSizeSplashTitle">35sp</dimen>
+    <dimen name="textViewHeaderHeight_activity_unknown">50sp</dimen>
     <dimen name="PaddingAroundGroupOfViews">25sp</dimen>
-    <dimen name="LinearLayoutButtonHeight">50sp</dimen>
-    <dimen name="LinearLayoutButtonWidth">200sp</dimen>
-    <dimen name="SeparatorTextViewHeight">30sp</dimen>
+    <dimen name="defaultButtonHeight">50sp</dimen>
+    <dimen name="defaultButtonWidth">200sp</dimen>
+    <dimen name="textViewProfileScreenSeparator">30sp</dimen>
+    <dimen name="textSizeTopTextViewOnSplash">80sp</dimen>
+    <dimen name="textSizeMiddleViewOnSplash">60sp</dimen>
+    <dimen name="textSize_btnSplashContinue">30sp</dimen>
 
+    <!-- Custom dimensions -->
+    <!-- Custom dimensions -->
+    <!-- Custom dimensions -->
+    <!-- Custom dimensions -->
+    <!-- Custom dimensions -->
 
 
 </resources>

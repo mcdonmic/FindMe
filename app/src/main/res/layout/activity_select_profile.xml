@@ -24,8 +24,8 @@ android:focusableInTouchMode="true">
         android:gravity="center_horizontal"
         android:singleLine="true"
 
-        android:layout_height="@dimen/TitleTextViewHeight"
-        android:textSize="@dimen/OversizeTextSize"
+        android:layout_height="@dimen/textViewHeightSplashTitle"
+        android:textSize="@dimen/textSizeSplashTitle"
         android:text="@string/actTitle_ProfileSelection"
         android:id="@+id/txtViewProfileSelectionTitle"
         />
@@ -33,7 +33,7 @@ android:focusableInTouchMode="true">
     <!-- Header -->
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="@dimen/HeaderTextViewHeight"
+        android:layout_height="@dimen/textViewHeaderHeight_activity_unknown"
 
         android:singleLine="true"
         android:textAppearance="?android:attr/textAppearanceLarge"
@@ -44,8 +44,8 @@ android:focusableInTouchMode="true">
 
     <!-- M A K E  Button -->
     <Button
-        android:layout_width="@dimen/LinearLayoutButtonWidth"
-        android:layout_height="@dimen/LinearLayoutButtonHeight"
+        android:layout_width="@dimen/defaultButtonWidth"
+        android:layout_height="@dimen/defaultButtonHeight"
         android:layout_gravity="center_horizontal"
         android:gravity="center"
 
@@ -55,7 +55,7 @@ android:focusableInTouchMode="true">
     <!-- Separator -->
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="@dimen/SeparatorTextViewHeight"
+        android:layout_height="@dimen/textViewProfileScreenSeparator"
         android:singleLine="true"
         android:layout_gravity="center_horizontal"
         android:gravity="center"
@@ -67,8 +67,8 @@ android:focusableInTouchMode="true">
 
     <!-- Target Button -->
     <Button
-        android:layout_width="@dimen/LinearLayoutButtonWidth"
-        android:layout_height="@dimen/LinearLayoutButtonHeight"
+        android:layout_width="@dimen/defaultButtonWidth"
+        android:layout_height="@dimen/defaultButtonHeight"
         android:layout_gravity="center_horizontal"
         android:gravity="center"
 
@@ -78,7 +78,7 @@ android:focusableInTouchMode="true">
     <!-- Separator -->
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="@dimen/SeparatorTextViewHeight"
+        android:layout_height="@dimen/textViewProfileScreenSeparator"
         android:singleLine="true"
         android:layout_gravity="center_horizontal"
         android:gravity="center"
@@ -90,8 +90,8 @@ android:focusableInTouchMode="true">
 
     <!-- Share Button -->
     <Button
-        android:layout_width="@dimen/LinearLayoutButtonWidth"
-        android:layout_height="@dimen/LinearLayoutButtonHeight"
+        android:layout_width="@dimen/defaultButtonWidth"
+        android:layout_height="@dimen/defaultButtonHeight"
         android:layout_gravity="center_horizontal"
         android:gravity="center"
 
@@ -102,7 +102,7 @@ android:focusableInTouchMode="true">
     <TextView
         android:layout_width="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:layout_height="@dimen/HeaderTextViewHeight"
+        android:layout_height="@dimen/textViewHeaderHeight_activity_unknown"
 
         android:singleLine="true"
         android:textAppearance="?android:attr/textAppearanceLarge"

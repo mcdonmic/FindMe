@@ -11,13 +11,13 @@
 
     <!-- Custom dimensions -->
 
-    <dimen name="TitleTextViewHeight">100sp</dimen>
-    <dimen name="OversizeTextSize">35sp</dimen>
-    <dimen name="HeaderTextViewHeight">30sp</dimen>
+    <dimen name="textViewHeightSplashTitle">100sp</dimen>
+    <dimen name="textSizeSplashTitle">35sp</dimen>
+    <dimen name="textViewHeaderHeight_activity_unknown">30sp</dimen>
     <dimen name="PaddingAroundGroupOfViews">25sp</dimen>
-    <dimen name="LinearLayoutButtonHeight">50sp</dimen>
-    <dimen name="LinearLayoutButtonWidth">200sp</dimen>
-    <dimen name="SeparatorTextViewHeight">20sp</dimen>
+    <dimen name="defaultButtonHeight">50sp</dimen>
+    <dimen name="defaultButtonWidth">200sp</dimen>
+    <dimen name="textViewProfileScreenSeparator">20sp</dimen>
 
 
 </resources>

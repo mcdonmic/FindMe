@@ -2,13 +2,14 @@
 <resources>
 
     <string name="app_name">FindMe</string>
-    <string name="title_activity_splash_screen">Welcome to FindMe</string>
+    <string name="captionSplashScreen">Welcome to FindMe</string>
 
     <!-- Future intents -->
     <string name="ShareMediaButtonLabel">SHARE</string>
 
     <!-- Profile Selector Variables -->
     <string name="actTitle_ProfileSelection">Select a Profile</string>
+    <string name="captionProfileSelection">FindMe: Profile Selection</string>
     <string name="ManageProfilesHeader">You may…</string>
     <string name="ManageProfilesFooter">… a profile</string>
     <string name="MakeProfileButtonLabel">m a k e</string>
@@ -17,7 +18,8 @@
     <string name="GeneralSeparator">or</string>
 
     <!-- Add Visual Media Variables -->
-    <string name="actTitle_AddVisualMedia">Let\'s Get Visual!</string>
+    <string name="caption_AddVisualMedia">Add Media</string>
+    <string name="textViewTitleAddVisualMedia">Let\'s Get Visual!</string>
     <string name="AddMediaHeader">Make a…</string>
     <string name="AddMediaSeparator">… or share an…</string>
     <string name="NewMediaButtonLabel">n e w</string>
@@ -25,13 +27,14 @@
     <string name="AddMediaFooter">… media file</string>
 
     <!-- Splash Screen Variables -->
-    <!-- <string name="SplashTitle">FindMe: Be Found!</string>  -->
     <string name="continuationButtonLabel">continue</string>
     <string name="subTitleSplashScreen">Be Found!</string>
     <string name="titleOnSplashScreen">FindMe:</string>
 
     <!-- Refactored variables -->
     <string name="action_settings">Settings</string>
+
+
 
 
 </resources>

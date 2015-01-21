@@ -18,9 +18,9 @@
         android:gravity="center_horizontal"
         android:singleLine="true"
 
-        android:layout_height="@dimen/TitleTextViewHeight"
-        android:textSize="@dimen/OversizeTextSize"
-        android:text="@string/actTitle_AddVisualMedia"
+        android:layout_height="@dimen/textViewHeightSplashTitle"
+        android:textSize="@dimen/textSizeSplashTitle"
+        android:text="@string/textViewTitleAddVisualMedia"
         android:id="@+id/txtViewAddMediaTitle"
         />
 
@@ -30,7 +30,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:layout_height="@dimen/HeaderTextViewHeight"
+        android:layout_height="@dimen/textViewHeaderHeight_activity_unknown"
         android:singleLine="true"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:gravity="center_horizontal"
@@ -40,8 +40,8 @@
 
     <!-- Add NEW Media Button -->
     <Button
-        android:layout_width="@dimen/LinearLayoutButtonWidth"
-        android:layout_height="@dimen/LinearLayoutButtonHeight"
+        android:layout_width="@dimen/defaultButtonWidth"
+        android:layout_height="@dimen/defaultButtonHeight"
         android:layout_gravity="center_horizontal"
         android:gravity="center"
 
@@ -51,7 +51,7 @@
     <!-- Separator -->
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="@dimen/TitleTextViewHeight"
+        android:layout_height="@dimen/textViewHeightSplashTitle"
         android:singleLine="true"
         android:layout_gravity="center_horizontal"
         android:gravity="center"
@@ -63,8 +63,8 @@
 
     <!-- Add Old Media Button -->
     <Button
-        android:layout_width="@dimen/LinearLayoutButtonWidth"
-        android:layout_height="@dimen/LinearLayoutButtonHeight"
+        android:layout_width="@dimen/defaultButtonWidth"
+        android:layout_height="@dimen/defaultButtonHeight"
         android:layout_gravity="center_horizontal"
         android:gravity="center"
 
@@ -78,7 +78,7 @@
         android:layout_width="wrap_content"
         android:layout_gravity="center_horizontal"
         android:gravity="bottom"
-        android:layout_height="@dimen/HeaderTextViewHeight"
+        android:layout_height="@dimen/textViewHeaderHeight_activity_unknown"
         android:singleLine="true"
         android:textAppearance="?android:attr/textAppearanceLarge"
 
