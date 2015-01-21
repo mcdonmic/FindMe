@@ -45,7 +45,7 @@
         android:layout_gravity="center_horizontal"
         android:gravity="center"
 
-        android:text="@string/NewMediaButtonLabel"
+        android:text="@string/NewMedia_btnButtonLabel"
         android:id="@+id/btnMakeNewMedia"   />
 
     <!-- Separator -->
@@ -68,7 +68,7 @@
         android:layout_gravity="center_horizontal"
         android:gravity="center"
 
-        android:text="@string/OldMediaButtonLabel"
+        android:text="@string/OldMedia_btnLabel"
         android:id="@+id/btnBringOldMedia"   />
 
     <!-- Footer

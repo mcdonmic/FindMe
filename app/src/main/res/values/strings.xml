@@ -18,23 +18,19 @@
     <string name="GeneralSeparator">or</string>
 
     <!-- Add Visual Media Variables -->
-    <string name="caption_AddVisualMedia">Add Media</string>
+    <string name="captionAddVisualMedia">FindMe: Add Media</string>
     <string name="textViewTitleAddVisualMedia">Let\'s Get Visual!</string>
     <string name="AddMediaHeader">Make a…</string>
     <string name="AddMediaSeparator">… or share an…</string>
-    <string name="NewMediaButtonLabel">n e w</string>
-    <string name="OldMediaButtonLabel">o l d</string>
+    <string name="NewMedia_btnButtonLabel">n e w</string>
+    <string name="OldMedia_btnLabel">o l d</string>
     <string name="AddMediaFooter">… media file</string>
 
     <!-- Splash Screen Variables -->
-    <string name="continuationButtonLabel">continue</string>
-    <string name="subTitleSplashScreen">Be Found!</string>
+    <string name="btnLabelOnSplashScreen">continue</string>
     <string name="titleOnSplashScreen">FindMe:</string>
+    <string name="subTitleOnSplashScreen">Be Found!</string>
 
     <!-- Refactored variables -->
     <string name="action_settings">Settings</string>
-
-
-
-
 </resources>
