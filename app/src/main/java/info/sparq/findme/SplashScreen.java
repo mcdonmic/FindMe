@@ -1,6 +1,7 @@
 package info.sparq.findme;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -26,6 +27,7 @@ public class SplashScreen extends Activity {
                 /*
                 Pick up here when you are done with laundry
                  */
+            Intent intent = new Intent(info.sparq.find, SelectProfile.class);
             }
         };
         btnContinue.setOnClickListener(onlyListener);
